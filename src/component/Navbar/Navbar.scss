@@ -1,0 +1,16 @@
+@import '../helper/media' ;
+
+$blackColor:rgb(50, 50, 50);
+
+.nav-container{
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+
+    @include breakpoints(mobile){
+       width: 90%;
+    }
+    h3{
+        color: $blackColor;
+    }
+}
